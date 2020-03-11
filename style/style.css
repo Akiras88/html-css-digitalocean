@@ -1,0 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 70px;
+}
+
+/* bug cancel at the end of the project  */
+.box-1 {
+  padding: 50px;
+  margin-bottom: 20px;
+  background: rgb(245, 211, 211);
+}
+.box-2 {
+  padding: 50px;
+  margin-bottom: 20px;
+  background: rgb(239, 199, 199);
+}
+.box-3 {
+  padding: 50px;
+  margin-bottom: 20px;
+  background: rgb(231, 181, 181);
+}
