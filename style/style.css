@@ -3,7 +3,16 @@ body {
   font-family: 'Roboto', sans-serif;
   padding-top: 70px;
 }
-
+.radius {
+  border-radius: 10px;
+}
+.size{
+  font-size: 30px;
+  font-weight: 600;
+}
+.room {
+  padding-top: 20px;
+}
 /* color settings */
 .white-bk {
   background-color: #fff;
@@ -46,8 +55,47 @@ nav img {
   color: #fff;
   font-size: 62px;
 }
-.jumbotron p {
+.jum-left {
   color: #9AB7FF;
+}
+.radius h2 {
+  color: #031b4e;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.personal input {
+  padding: 10px 0 30px 0;
+  margin: 0;
+  color: grey;
+}
+.btn-block+.btn-block {
+  margin-top: 10px;
+}
+.btn-primary {
+  background: #0460ff;
+  padding: 5px 16px;
+  font-size: 15px;
+}
+.btn-default {
+  color: #5b6987;
+  padding: 5px 16px;
+  font-size: 15px;
+  position: relative;
+}
+.g-logo {
+  position: absolute;
+  height: 18px;
+  display: inline-block;
+  top: 5px;
+  left: 10px;
+}
+.jumbotron .jum-right  {
+  color: #031b4e;
+  font-size: 12px;
+  padding-top: 12px;
 }
 /* bug cancel at the end of the project  */
 .box-1 {
