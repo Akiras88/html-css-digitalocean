@@ -18,33 +18,60 @@
   <!-- start header -->
   <header>
     <!-- navbar -->
-    <nav>
+    <nav class="navbar-fixed-top white-bk">
       <div class="container">
         <div class="row">
-          <div class="col-lg-2 col-md-6 col-xs-6">
-            <div class="box-1"></div>
+          <div class="col-lg-2 col-md-6 col-xs-6 navbar-brand">
+            <img src="img/do-logo.png" alt="logo">
           </div>
-          <div class="col-lg-4 hidden-md hidden-sm hidden-xs visible-lg-*">
-            <div class="box-2"></div>
+          <div class="col-lg-5 col-lg-offset-1  navbar-brand  hidden-md hidden-sm hidden-xs visible-lg-*">
+            <ul class="nav nav-pills">
+              <li role="presentation"><a href="#">Products <i class="fas fa-angle-down"></i></a></li>
+              <li role="presentation"><a href="#">Customers</a></li>
+              <li role="presentation"><a href="#">Community <i class="fas fa-angle-down"></i></a></li>
+              <li role="presentation"><a href="#">Pricing</a></li>
+            </ul>
           </div>
-          <div class="col-lg-4 hidden-md hidden-sm hidden-xs visible-lg-*">
-            <div class="box-3"></div>
+          <div class="col-lg-4 navbar-brand hidden-md hidden-sm hidden-xs visible-lg-*">
+            <ul class="nav nav-pills navbar-right">
+              <li role="presentation" class="active"><a href="#">Sign Up</a></li>
+              <li role="presentation"><a href="#">Login</a></li>
+              <li role="presentation"><a href="#">Support <i class="fas fa-angle-down"></i></a></li>
+              <li role="presentation"><a href="#">Docs</a></li>
+            </ul>
           </div>
-          <div class="col-md-6 col-xs-6 hidden-lg ">
-            <div class="box-3"></div>
+          <div class="col-md-6 col-xs-6 hidden-lg visible-xs-* navbar-brand">
+            <ul class="nav nav-pills navbar-right">
+              <li role="presentation"><a href="#"><i class="fas fa-bars blue"></i></a></li>
+            </ul>
           </div>
         </div>
       </div>
     </nav>
 
     <!-- jumbotron -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-xs-12">
-          <div class="box-1"></div>
-        </div>
-        <div class="col-lg-5 col-md-5 col-xs-12">
-          <div class="box-2"></div>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12">
+            <h1>The simplest cloud platform for developers & teams</h1>
+            <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+          </div>
+          <div class="col-lg-5 col-lg-offset-1 col-md-5 col-xs-12 white-bk text-center">
+            <h2>Deploy your app in seconds.<br><span>Get started now.</span></h2>
+            <form class="form-group">
+              <div class="form-group">
+                <label for="exampleInputEmail1"></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1"></label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <button type="button" class="btn btn-primary btn-lg btn-block">Create your account</button>
+                <button type="button" class="btn btn-default btn-lg btn-block">Sign up with google</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>

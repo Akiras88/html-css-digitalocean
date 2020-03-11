@@ -1,8 +1,54 @@
+/* GENERAL SETTINGS */
 body {
   font-family: 'Roboto', sans-serif;
   padding-top: 70px;
 }
 
+/* color settings */
+.white-bk {
+  background-color: #fff;
+}
+.white-color {
+  color: #fff;
+}
+.blue {
+  color: #0069ff;
+}
+/* HEADER STYLE */
+/* navbar style */
+nav {
+  height:66px;
+}
+nav img {
+  width: 169px;
+}
+.nav>li>a  {
+  color: #041D4F;
+  padding: 10px 10px;
+  font-weight: 500;
+}
+.nav-pills>li.active>a {
+  color: #4C96FF;
+  background: #fff;
+  border: 1px solid #4C96FF;
+  font-weight: 500;
+}
+.nav-pills>li {
+  float: right;
+}
+/* jumbotron style */
+.jumbotron {
+  background-image: url(../img/bg-banner-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.jumbotron h1 {
+  color: #fff;
+  font-size: 62px;
+}
+.jumbotron p {
+  color: #9AB7FF;
+}
 /* bug cancel at the end of the project  */
 .box-1 {
   padding: 50px;
