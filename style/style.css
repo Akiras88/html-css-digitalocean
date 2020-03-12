@@ -16,6 +16,9 @@ body {
 .room-bottom {
   padding-bottom: 30px;
 }
+.room-bottom-small{
+  padding-bottom: 15px;
+}
 h3 {
   color: #031b4e;
 }
@@ -183,6 +186,15 @@ blockquote {
 }
 table td a {
   color: #00D7D2;
+}
+
+/* FOOTER STYLE */
+/* top footer */
+.top-footer {
+  padding: 50px 0;
+}
+.btn-default {
+  color: #0069ff;
 }
 /* bug cancel at the end of the project  */
 .box-1 {
