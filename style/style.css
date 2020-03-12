@@ -10,14 +10,17 @@ body {
   font-size: 30px;
   font-weight: 600;
 }
-.room {
-  padding-top: 20px;
+.room-top {
+  padding-top: 30px;
+}
+.room-bottom {
+  padding-bottom: 30px;
 }
 h3 {
   color: #031b4e;
 }
 .p-under-h3 {
-  color: #031b4e; 
+  color: #031b4e;
 }
 /* color settings */
 .white-bk {
@@ -141,11 +144,46 @@ blockquote {
   color: #031b4e;
   font-size: 16px;
 }
-
-
-
-
-
+/* section designed */
+.designed h2 {
+  color: #031b4e;
+  font-size: 36px;
+}
+.designed p {
+  color: #031b4e;
+}
+.angle .fa-angle-left:before {
+  position: relative;
+  top: 241px;
+  left: 155px;
+  font-size: 44px;
+  color: #ABB4C6;
+}
+.angle .fa-angle-right:before {
+  position: relative;
+  top: 241px;
+  left: 22px;
+  font-size: 44px;
+  color: #0069FF;
+}
+.img-ubuntu {
+  height: 479px;
+  padding: 40px 0 20px;
+}
+.col-lg-12 h5 {
+  padding-bottom: 0;
+  color: #031b4e;
+}
+.circle {
+  color: #0069FF;
+}
+/* section table */
+.blue-gradient {
+  background: linear-gradient(30deg, #002AA5, #0047C5)
+}
+table td a {
+  color: #00D7D2;
+}
 /* bug cancel at the end of the project  */
 .box-1 {
   padding: 50px;
