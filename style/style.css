@@ -108,11 +108,16 @@ nav img {
 h4 {
   color: #939EB5;
 }
-.bottom-header img {
-  width: 100px;
-  height: 66px;
-}
 
+.bottom-header img {
+  position: relative;
+  left: 42px;
+  height: 70px;
+  width: 134px;
+}
+.col-lg-12 h5 {
+  padding-bottom: 20px;
+}
 
 
 
