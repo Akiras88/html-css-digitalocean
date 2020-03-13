@@ -170,21 +170,15 @@ blockquote {
 .angle .fa-angle-left:before {
   position: absolute;
   top: 349px;
-  left: 333px;
+  left: 300px;
   font-size: 44px;
   color: #ABB4C6;
 }
 .angle .fa-angle-right:before {
   position:absolute;
   top: 349px;
-  right: 333px;
+  right: 300px;
   font-size: 44px;
-  color: #ABB4C6;
-}
-.btn-link,
-.btn-link:active,
-.btn-link:focus,
-.btn-link:hover {
   color: #0069FF;
 }
 .img-ubuntu {
@@ -207,6 +201,33 @@ table td a {
 }
 .table>thead>tr>th {
   border-bottom: none;
+}
+/* section development */
+.development {
+  height: 700px;
+  position: relative;
+}
+.box-rockerbox {
+  display: inline-block;
+  float: left;
+  margin: 7% 26% 5%;
+  height: 390px;
+  width: 650px;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+  color: #031b4e;
+}
+.box-rockerbox img {
+  padding:83px 0 20px;
+}
+.box-rockerbox p {
+  font-size: 20px;
+}
+.box-rockerbox a {
+  color: #0069FF;
+  font-weight: 500;
+  padding-top: 10px;
 }
 /* FOOTER STYLE */
 /* top footer */
