@@ -32,6 +32,12 @@ h3 {
 .white-color {
   color: #fff;
 }
+.white-opacity-color {
+  color: hsla(0,0%,100%,.5);
+}
+.white-opacity-color-2 {
+  color: hsla(0,0%,70%,.5);
+}
 .blue {
   color: #0069ff;
 }
@@ -198,6 +204,26 @@ table td a {
 }
 .btn-default {
   color: #0069ff;
+}
+/* bottom footer */
+.fa-twitter::before,
+.fa-facebook-square::before,
+.fa-instagram::before,
+.fa-youtube::before,
+.fa-linkedin::before {
+  padding-left: 5px;
+  font-size: 16px;
+}
+.list-unstyled li:first-child {
+  color: #fff;
+}
+.list-unstyled li a {
+  color: hsla(0,0%,100%,.5);
+  font-size: 14px;
+}
+.list-unstyled li a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 /* bug cancel at the end of the project  */
 .box-1 {
