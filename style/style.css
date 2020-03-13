@@ -157,6 +157,7 @@ blockquote {
   font-size: 16px;
 }
 /* section designed */
+/* section designed */
 .designed {
   position: relative;
 }
@@ -203,17 +204,9 @@ blockquote {
   background: linear-gradient(30deg, #002AA5, #0047C5)
 }
 table td a {
-  position: relative;
   color: #00D7D2;
-  left: 70px;
 }
-.table>thead>tr>th {
-  border-bottom: none;
-}
-/* section development */
-.img-rockerbox {
-  height: 359px; 
-}
+
 /* FOOTER STYLE */
 /* top footer */
 .top-footer {
