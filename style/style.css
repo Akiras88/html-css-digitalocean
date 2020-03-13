@@ -157,6 +157,9 @@ blockquote {
   font-size: 16px;
 }
 /* section designed */
+.designed {
+  position: relative;
+}
 .designed h2 {
   color: #031b4e;
   font-size: 36px;
@@ -165,17 +168,23 @@ blockquote {
   color: #031b4e;
 }
 .angle .fa-angle-left:before {
-  position: relative;
-  top: 241px;
-  left: 155px;
+  position: absolute;
+  top: 349px;
+  left: 285px;
   font-size: 44px;
   color: #ABB4C6;
 }
 .angle .fa-angle-right:before {
-  position: relative;
-  top: 241px;
-  left: 22px;
+  position:absolute;
+  top: 349px;
+  right: 285px;
   font-size: 44px;
+  color: #ABB4C6;
+}
+.btn-link,
+.btn-link:active,
+.btn-link:focus,
+.btn-link:hover {
   color: #0069FF;
 }
 .img-ubuntu {
@@ -194,9 +203,17 @@ blockquote {
   background: linear-gradient(30deg, #002AA5, #0047C5)
 }
 table td a {
+  position: relative;
   color: #00D7D2;
+  left: 70px;
 }
-
+.table>thead>tr>th {
+  border-bottom: none;
+}
+/* section development */
+.img-rockerbox {
+  height: 359px; 
+}
 /* FOOTER STYLE */
 /* top footer */
 .top-footer {
