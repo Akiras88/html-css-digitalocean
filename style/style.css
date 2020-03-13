@@ -157,7 +157,6 @@ blockquote {
   font-size: 16px;
 }
 /* section designed */
-/* section designed */
 .designed {
   position: relative;
 }
@@ -171,14 +170,14 @@ blockquote {
 .angle .fa-angle-left:before {
   position: absolute;
   top: 349px;
-  left: 285px;
+  left: 333px;
   font-size: 44px;
   color: #ABB4C6;
 }
 .angle .fa-angle-right:before {
   position:absolute;
   top: 349px;
-  right: 285px;
+  right: 333px;
   font-size: 44px;
   color: #ABB4C6;
 }
@@ -206,7 +205,9 @@ blockquote {
 table td a {
   color: #00D7D2;
 }
-
+.table>thead>tr>th {
+  border-bottom: none;
+}
 /* FOOTER STYLE */
 /* top footer */
 .top-footer {
