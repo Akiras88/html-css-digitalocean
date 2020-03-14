@@ -130,8 +130,6 @@ h4 {
   color: #939EB5;
 }
 .bottom-header img {
-  position: relative;
-  left: 42px;
   height: 70px;
   width: 134px;
 }
@@ -169,20 +167,21 @@ blockquote {
 }
 .angle .fa-angle-left:before {
   position: absolute;
-  top: 349px;
+  top: 252px;
   left: 300px;
   font-size: 44px;
   color: #ABB4C6;
 }
 .angle .fa-angle-right:before {
   position:absolute;
-  top: 349px;
+  top: 252px;
   right: 300px;
   font-size: 44px;
   color: #0069FF;
 }
 .img-ubuntu {
   height: 479px;
+  max-height: 100%;
   padding: 40px 0 20px;
 }
 .col-lg-12 h5 {
@@ -191,6 +190,7 @@ blockquote {
 }
 .circle {
   color: #0069FF;
+  display: inline-block;
 }
 /* section table */
 .blue-gradient {
@@ -208,9 +208,6 @@ table td a {
   position: relative;
 }
 .box-rockerbox {
-  display: inline-block;
-  float: left;
-  margin: 7% 26% 5%;
   height: 390px;
   width: 650px;
   max-height: 100%;
@@ -219,6 +216,7 @@ table td a {
   color: #031b4e;
 }
 .box-rockerbox img {
+  display: inline-block;
   padding:83px 0 20px;
 }
 .box-rockerbox p {
@@ -246,7 +244,7 @@ table td a {
   padding-left: 5px;
   font-size: 16px;
 }
-.list-unstyled li:first-child {
+.list-unstyled li strong:first-child {
   color: #fff;
 }
 .list-unstyled li a {
@@ -262,21 +260,28 @@ table td a {
   position: fixed;
   z-index: 2;
   bottom: 10px;
-  right: 20px;
+  right: 20px;ù
 }
-.tooltip {
+.img-rounded {
+  background: #0069ff;
+  height: 60px;
   position: relative;
+  left: 70%;
+}
+.strip {
+  position: relative;
+  right: 37%;
+  top: 57px;
   width: 300px;
   padding: 10px;
   background: #fff;
   line-height: 1.45;
   border-radius: 5px;
-  /* Ombreggiatura */
   filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
-  /* box-shadow: 0 0 8px 5px rgba(0,0,0, .1); */
+ box-shadow: 0 0 8px 5px rgba(0,0,0, .1);
 }
 
-.tooltip::before {
+.strip::before {
   content: '';
   position: absolute;
   bottom: 15px;
@@ -286,4 +291,20 @@ table td a {
   background: #fff;
   /* Rotazione */
   transform: rotate(45deg);
+}
+.shark::before {
+  content: '2';
+  position: absolute;
+  top: 50px;
+  right: 2px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  background: red;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  z-index: 3;
 }

@@ -23,7 +23,7 @@
     <nav class="navbar-fixed-top white-bk">
       <div class="container">
         <div class="row">
-          <div class="col-lg-2 col-md-6 col-xs-6 navbar-brand">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2 navbar-brand">
             <img src="img/do-logo.png" alt="logo">
           </div>
           <div class="col-lg-5 col-lg-offset-1  navbar-brand  hidden-md hidden-sm hidden-xs visible-lg-*">
@@ -42,8 +42,8 @@
               <li role="presentation"><a href="#">Docs</a></li>
             </ul>
           </div>
-          <div class="col-md-6 col-xs-6 hidden-lg visible-xs-* navbar-brand">
-            <ul class="nav nav-pills navbar-right">
+          <div class="col-xs-6 col-sm-6 col-md-6 navbar-brand">
+            <ul class="nav nav-pills navbar-right hidden-lg visible-xs-* visible-sm-* visible-md-*">
               <li role="presentation"><a href="#"><i class="fas fa-bars blue"></i></a></li>
             </ul>
           </div>
@@ -55,11 +55,11 @@
     <div class="jumbotron">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-xs-12">
+          <div class="col-sm-6 col-md-6 col-lg-6">
             <h1>The simplest cloud platform for developers & teams</h1>
             <p class="jum-left">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
           </div>
-          <div class="col-lg-5 col-lg-offset-1 col-md-5 col-xs-12 white-bk text-center radius">
+          <div class="col-sm-6 col-md-6 col-lg-5 col-lg-offset-1 white-bk text-center radius">
             <h2>Deploy your app in seconds.</h2>
             <span class="blue size">Get started now.</span>
             <form>
@@ -80,30 +80,20 @@
 
     <!-- bottom header -->
     <div class="container-fluid gray-bk bottom-header ">
-      <div class="container-my">
-        <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+      <div class="container">
+        <div class="col-sm-12 col-md-12 col-xs-12 text-center">
           <h4 class="text-uppercase">innovative businesses trust digitalocean</h4>
         </div>
-        <div class="col-my-lg-1 offset-my-lg-1 col-my-xs-6 center-block adjust">
-          <img src="img/docker.png" alt="">
-        </div>
-        <div class="col-my-lg-1 col-my-xs-6 center-block">
-          <img src="img/gitlab.png" alt="">
-        </div>
-        <div class="col-my-lg-1 col-my-xs-6 center-block">
-          <img src="img/slack.png" alt="">
-        </div>
-        <div class="col-my-lg-1 col-my-xs-6 center-block">
-          <img src="img/hashicorp.png" alt="">
-        </div>
-        <div class="col-my-lg-1 col-my-xs-6 center-block">
-          <img src="img/hashicorp.png" alt="">
-        </div>
-        <div class="col-my-lg-1 col-my-xs-6 center-block">
-          <img class="splunk" src="img/splunk.png" alt="">
-        </div>
+        <ul class="list-inline text-center">
+            <li class="partners"><img class="partners__img" src="img/docker.png" alt=""></li>
+            <li class="partners"><img class="partners__img" src="img/gitlab.png" alt=""></li>
+            <li class="partners"><img class="partners__img" src="img/slack.png" alt=""></li>
+            <li class="partners"><img class="partners__img" src="img/hashicorp.png" alt=""></li>
+            <li class="partners"><img class="partners__img" src="img/hashicorp.png" alt=""></li>
+            <li class="partners"><img class="partners__img" src="img/splunk.png" alt=""></li>
+          </ul>
         <div class="row">
-          <div class="col-lg-12 col-xs-12 text-center">
+          <div class="text-center">
             <h5><a href="#">View customer stories <i class="fas fa-angle-right"></i></a> </h5>
           </div>
         </div>
@@ -117,11 +107,11 @@
     <!-- section deploy -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 col-xs-12 text-center title">
+        <div class="text-center title">
           <h2>Deploy and scale seamlessly</h2>
           <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
         </div>
-          <div class="col-lg-2 col-lg-offset-2 col-xs-12">
+          <div class="col-sm-1 col-md-1 col-lg-1">
             <blockquote>
               <ul class="list-unstyled">
                 <li>Deploy</li>
@@ -132,43 +122,45 @@
               </ul>
             </blockquote>
           </div>
-          <div class="col-lg-3 col-xs-12">
-              <img src="img/cluster-deploy.svg" alt="">
-              <h3>Cluster deployments</h3>
-              <p class="p-under-h3">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API</p>
-          </div>
-          <div class="col-lg-3 col-xs-12">
-              <img src="img/optimized-compute.svg" alt="">
-              <h3>Optimaze compute types</h3>
-              <p class="p-under-h3">Get the compute resources you need with Standard or Optimazed Droplets.</p>
-          </div>
-          <div class="col-lg-3 col-xs-12">
-            <img src="img/one-click.svg" alt="">
-            <h3>One-click apps</h3>
-            <p class="p-under-h3">Skip the install and configuration preocess whith pre-built open source images supportin Rails, Cassandra, Docker, and more.</p>
-          </div>
-          <div class="col-lg-3 col-xs-12">
-            <img src="img/global.svg" alt="">
-            <h3>Global availaility</h3>
-            <p class="p-under-h3">Deploy to any of our data center regions around the world.</p>
+           <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+             <div class="row">
+               <div class="col-sm-6 col-md-6 col-lg-6">
+                   <img src="img/cluster-deploy.svg" alt="">
+                   <h3>Cluster deployments</h3>
+                   <p class="p-under-h3">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API</p>
+               </div>
+               <div class="col-sm-6 col-md-6 col-lg-6">
+                   <img src="img/optimized-compute.svg" alt="">
+                   <h3>Optimaze compute types</h3>
+                   <p class="p-under-h3">Get the compute resources you need with Standard or Optimazed Droplets.</p>
+               </div>
+               <div class="col-sm-6 col-md-6 col-lg-6">
+                 <img src="img/one-click.svg" alt="">
+                 <h3>One-click apps</h3>
+                 <p class="p-under-h3">Skip the install and configuration preocess whith pre-built open source images supportin Rails, Cassandra, Docker, and more.</p>
+               </div>
+               <div class="col-sm-6 col-md-6 col-lg-6">
+                 <img src="img/global.svg" alt="">
+                 <h3>Global availaility</h3>
+                 <p class="p-under-h3">Deploy to any of our data center regions around the world.</p>
+               </div>
+             </div>
           </div>
       </div>
     </div>
-
-    <!-- ATTEMPT TO MOBILE FIRST -->
-    <!-- section deisgned -->
+    <!-- section designed -->
     <section class="designed">
       <div class="container-fluid gray-bk designed">
-        <div class="col-lg-12 text-center">
+        <div class="text-center">
           <h2>Designed for developers</h2>
           <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
         </div>
-        <div class="img-responsive">
-          <img class="img-ubuntu center-block" src="img/create-droplet.jpg" alt="">
-          <button type="button" class="btn btn-link"><span class="angle hidden-xs"><i class="fas fa-angle-left"></i></span></button>
-          <button type="button" class="btn btn-link"><span class="angle hidden-xs"><i class="fas fa-angle-right"></i></span></button>
+        <div class="col-xs-12 col-sd-12 col-md-12">
+          <img class="img-ubuntu img-responsive center-block" src="img/create-droplet.jpg" alt="">
+          <button type="button" class="btn btn-link hidden-xs hidden-sm hidden-md"><span class="angle"><i class="fas fa-angle-left"></i></span></button>
+          <button type="button" class="btn btn-link hidden-xs hidden-sm hidden-md"><span class="angle"><i class="fas fa-angle-right"></i></span></button>
         </div>
-        <div class="col-xs-12 col-sm-12 col-lg-12 col-sm-12 room-bottom text-center">
+        <div class="room-bottom text-center">
           <h5>Create compute servers in 55 seconds or less</h5>
           <span class="circle"><i class="fas fa-circle"></i>
           <i class="far fa-circle"></i>
@@ -180,22 +172,22 @@
     <!-- section features -->
     <div class="container designed">
       <div class="row">
-        <div class="col-lg-12 col-xs-12 text-center room-top">
+        <div class="text-center room-top">
           <h2>The features your business needs</h2>
         </div>
-        <div class="col-lg-3 col-lg-offset-2 col-xs-12">
+        <div class="col-sm-3 col-md-3 col-sm-offset-2 col-md-offset-2 col-lg-3 col-lg-offset-2">
           <img src="img/pred-pricing.svg" alt="">
           <h3>Predictable pricing</h3>
           <p>Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
           <span class=""><a href="#">Pricing <i class="fas fa-angle-right"></i></a></span>
         </div>
-        <div class="col-lg-3 col-xs-12">
+        <div class="col-sm-3 col-md-3 col-lg-3">
           <img src="img/world-class.svg" alt="">
           <h3>World-class service</h3>
           <p>Free round-the-clock technical support for all custom ers. You'll feel the love.</p>
           <span><a href="#">Support <i class="fas fa-angle-right"></i></a></span>
         </div>
-        <div class="col-lg-3 col-xs-12">
+        <div class="col-sm-3 col-md-3 col-lg-3">
           <img src="img/reliable-platform.svg" alt="">
           <h3>Realiable platform</h3>
           <p>More tham 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% utime SLA for all service.</p>
@@ -207,10 +199,10 @@
     <div class="container-fluid blue-gradient room-top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 col-xs-12 text-center">
+          <div class="text-center">
             <h2 class="white-color">Service your customers around the world from 12 regions.</h2>
           </div>
-          <div class="col-lg-6 col-md-12 col-xs-12">
+          <div class="col-sm-6 col-md-6 col-lg-6">
             <div class="table-responsive">
               <table class="table white-color">
                 <thead>
@@ -248,7 +240,7 @@
               </table>
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 col-xs-12">
+          <div class="col-sm-6 col-md-6 col-lg-6">
             <table class="table white-color">
               <thead>
                 <tr>
@@ -289,20 +281,22 @@
     </div>
     <!-- section development -->
     <section class="development gray-bk clear-fix">
-      <div class="col-lg-12 text-center">
-        <h2 class="room-top">Development teams love DigitalOcean</h2>
+      <div class="text-center">
+        <h2 class="room-top room-bottom">Development teams love DigitalOcean</h2>
       </div>
-      <div class="box-rockerbox white-bk center-block text-center">
-        <img src="img/rockerbox-logo.png" alt="">
-        <p>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient."</p>
-        <strong>Rick O'Toole</strong><br>
-        <span>Co-founder and CTO</span><br>
-        <a class="center-block" href="#">Read story <i class="fas fa-angle-right"></i></a>
-        <button type="button" class="btn btn-link"><span class="angle hidden-xs"><i class="fas fa-angle-left"></i></span></button>
-        <button type="button" class="btn btn-link"><span class="angle hidden-xs"><i class="fas fa-angle-right"></i></span></button>
+      <div class="col-xs-12 col-sd-12 col-md-12">
+        <div class="box-rockerbox white-bk center-block text-center">
+          <img class="img-responsive" src="img/rockerbox-logo.png" alt="">
+          <p>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient."</p>
+          <strong>Rick O'Toole</strong><br>
+          <span>Co-founder and CTO</span><br>
+          <a class="center-block" href="#">Read story <i class="fas fa-angle-right"></i></a>
+          <button type="button" class="btn btn-link hidden-xs hidden-sm hidden-md"><span class="angle hidden-xs"><i class="fas fa-angle-left"></i></span></button>
+          <button type="button" class="btn btn-link hidden-xs hidden-sm hidden-md"><span class="angle hidden-xs"><i class="fas fa-angle-right"></i></span></button>
+        </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-lg-12 col-sm-12 room-bottom text-center">
-        <span class="circle"><i class="fas fa-circle"></i>
+        <span class="circle room-top"><i class="fas fa-circle"></i>
         <i class="far fa-circle"></i>
         <i class="far fa-circle"></i></span>
       </div>
@@ -316,7 +310,7 @@
     <div class="container-fluid blue-gradient">
       <div class="top-footer">
         <div class="row">
-          <div class="col-lg-12 col-xs-12 text-center">
+          <div class="text-center">
             <h2 class="white-color room-bottom-small">Get started now.</h2>
             <button class="btn btn-default" type="submit">Create your account</button>
           </div>
@@ -327,12 +321,12 @@
     <div class="container-fluid dark-blue-bk">
       <div class="container room-top">
         <div class="row">
-          <div class="col-lg-3 col-lg-offser-1 col-md-12 col-xs-12">
+          <div class="col-lg-3 col-lg-offser-1">
             <img class="room-bottom-small" src="img/logo-small.svg" alt="">
             <p class="white-opacity-color">&copy DigitalOcean, LLC. All rights rederved. <span class="white-opacity-color-2">Proudly made in NY </span></p>
             <span class="white-opacity-color-2"><i class="fab fa-twitter"></i> <i class="fab fa-facebook-square"></i> <i class="fab fa-instagram"></i> <i class="fab fa-youtube"></i> <i class="fab fa-linkedin"></i></span>
           </div>
-          <div class="col-lg-2 col-md-6 col-xs-12">
+          <div class="col-sm-6 col-md-6 col-lg-2">
             <ul class="list-unstyled">
               <li><strong>Company</strong></li>
               <li><a href="#">About</a></li>
@@ -344,7 +338,7 @@
               <li><a href="#">Legal & Security</a></li>
             </ul>
           </div>
-          <div class="col-lg-2 col-md-6 col-xs-12">
+          <div class="col-sm-6 col-md-6 col-lg-2">
             <ul class="list-unstyled">
               <li><strong>Products</strong></li>
               <li><a href="#">Products Overview</a></li>
@@ -363,7 +357,7 @@
               <li><a href="#">Release Notes</a></li>
             </ul>
           </div>
-          <div class="col-lg-2 col-md-6 col-xs-12">
+          <div class="col-sm-6 col-md-6 col-lg-2">
             <ul class="list-unstyled">
               <li><strong>Community</strong></li>
               <li><a href="#">Tutorials</a></li>
@@ -378,7 +372,7 @@
               <li><a href="#">Open Source</a></li>
             </ul>
           </div>
-          <div class="col-lg-2 col-md-6 col-xs-12">
+          <div class="col-sm-6 col-md-6 col-lg-2">
             <ul class="list-unstyled">
               <li><strong>Support</strong></li>
               <li><a href="#">Contact support</a></li>
@@ -394,11 +388,11 @@
 
   <!-- fixed menu -->
   <div class="fix-shark">
-    <div class="tooltip">
-      <p>Can i help answer any question you have about DigitalOcean?</p>
+    <div class="strip">
+      <span>Can i help answer any question you have about</span>
     </div>
-    <div class="">
-      <img src="img/chat-img.png" alt="shark">
+    <div class="shark">
+      <img src="img/chat-img.png" alt="shark" class="img-rounded">
     </div>
   </div>
 
