@@ -260,7 +260,7 @@ table td a {
   position: fixed;
   z-index: 2;
   bottom: 10px;
-  right: 20px;ù
+  right: 20px;
 }
 .img-rounded {
   background: #0069ff;
@@ -307,4 +307,59 @@ table td a {
   border: 2px solid #fff;
   border-radius: 50%;
   z-index: 3;
+}
+/* responsive fixed menu */
+@media all and (max-width: 777px) {
+  .fix-shark {
+    position: fixed;
+    z-index: 2;
+    bottom: 10px;
+    right: 20px;
+  }
+  .img-rounded {
+    background: #0069ff;
+    height: 55px;
+    position: relative;
+    left: -160px;
+    bottom: 90px;
+  }
+  .strip {
+    position: relative;
+    right: 55%;
+    top: 45px;
+    width: 280px;
+    padding: 10px;
+    background: #fff;
+    line-height: 1.45;
+    border-radius: 5px;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+   box-shadow: 0 0 8px 5px rgba(0,0,0, .1);
+  }
+
+  .strip::before {
+    content: '';
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    transform: rotate(45deg);
+  }
+  .shark::before {
+    content: '2';
+    position: absolute;
+    top: -40px;
+    right: 360px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    z-index: 3;
+  }
 }
