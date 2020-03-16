@@ -127,7 +127,7 @@ h4 {
   color: #939EB5;
 }
 .bottom-header img {
-  height: 70px;
+  height: auto;
   width: 134px;
 }
 .col-lg-12 h5 {
